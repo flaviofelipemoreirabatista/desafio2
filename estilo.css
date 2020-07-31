@@ -1,0 +1,65 @@
+html,
+body {
+    margin: 0;
+}
+p:hover, h2:hover, a:hover {
+    background-color: wheat;
+}
+#imagem_fundo {
+    background: url(img/paper-3033204_1280.jpg);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+       
+}
+
+#titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    text-shadow: 2px 2px black;
+    padding-top: 20%;
+    font-size: 70px;
+    line-height: 0.6;
+
+}
+
+#subtitulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-top: 3px solid blue;
+    text-shadow: 2px 2px black;
+}
+
+#acao {
+    text-shadow: 1px 1px black;
+    font-family: sans-serif;
+    border: 3px solid blue;
+    border-radius: 8px;
+    color: blue;
+    padding: 10 20 10 20;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.icone {
+    width: 51px;
+}
+
+section {
+    padding: 20px;
+}
+
+.destaque {
+    background-color:whitesmoke;
+}
+.imgpolos{
+    width: 40%;
+}
+
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
